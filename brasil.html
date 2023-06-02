@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>JavaScript</title>
+
+		<script>
+
+			var nome = prompt('Digite o seu nome:')
+			var altura = prompt('Digite a sua altura:')
+			var peso = prompt('Digite o seu peso:')
+			var IMC
+
+  				
+			peso = parseFloat(peso)
+			altura = parseFloat(altura)
+
+
+			IMC = (peso / (altura * altura)).toFixed(2)
+
+
+			if (IMC >= 0 && IMC < 15.99)
+			document.write(nome + ' possui índice de massa corporal igual a ' + IMC + ', sendo classificado como: Baixo peso muito grave')
+
+			else if (IMC >= 16 && IMC < 16.99)
+			document.write(nome + ' possui índice de massa corporal igual a ' + IMC + ', sendo classificado como: Baixo peso grave')
+			
+
+			else if (IMC >= 17 && IMC < 18.49)
+			document.write(nome + ' possui índice de massa corporal igual a ' + IMC + ', sendo classificado como: Baixo peso')
+			
+
+			else if (IMC >= 18.50 && IMC < 24.99)
+			document.write(nome + ' possui índice de massa corporal igual a ' + IMC + ', sendo classificado como: Peso normal')
+			
+
+			else if (IMC >= 25 && IMC < 29.99)
+			document.write(nome + ' possui índice de massa corporal igual a ' + IMC + ', sendo classificado como: Sobrepeso')
+			
+
+			else if (IMC >= 30 && IMC < 34.99)
+			document.write(nome + ' possui índice de massa corporal igual a ' + IMC + ', sendo classificado como: Obesidade grau I')
+			
+
+			else if (IMC >= 35 && IMC < 39.99)
+			document.write(nome + ' possui índice de massa corporal igual a ' + IMC + ', sendo classificado como: Obesidade grau II')
+
+			
+			else if(IMC >= 40)
+			document.write(nome + ' possui índice de massa corporal igual a ' + IMC + ', sendo classificado como: Obesidade grau III')
+
+
+			console.log(nome)
+			console.log(altura)
+			console.log(peso)
+			console.log(IMC)
+			
+		</script>
+
+	</head>
+
+	<body>
+
+
+
+	</body>
+
+</html>

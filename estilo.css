@@ -1,0 +1,184 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-image: url(imagens/fundo.png);
+	background-repeat: repeat-x;
+	padding: 0px;
+	margin: 0px;
+}
+
+#logo {
+	position: relative;
+	float: left;
+	padding: 15px 0px 0px 490px;
+}
+
+#topo {
+	position: relative;
+	float: right;
+	padding: 0px 440px 0px 0px;
+}
+
+#menu-topo {
+	position: absolute;
+	padding: 100px 0px 0px 490px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#menu-topo a {
+	background: #B22222;
+	color: #FFFAFA;
+	font-size: 20px;
+	padding: 10px 24px;
+	width:100%;
+    margin-left: -6px;
+}
+
+#menu-topo a:hover {
+	background: #B22222;
+	color: #800000;
+}
+
+
+#menu-topo a:active {
+	background: #DC143C;
+	color: #FFFAFA;
+}
+
+#principal {
+	float: left;
+	position: absolute;
+	padding: 10px 10px 10px 10px;
+	background-image: url(imagens/fundo-caixa.png);
+	margin: 240px 0px 0px 750px ;
+	width: 300px;
+}
+
+.temas {
+	background: #37588B;
+	color: #FFFAFA;
+	padding: 0px 45px 0px 44px;
+	font-size: 27px;
+
+}
+
+.destaques {
+	background: #37588B;
+	color: #FFFAFA;
+	padding: 0px 95px 0px 95px;
+	font-size: 27px;
+	text-align: center;	
+}
+
+.titulo {
+	background: #B22222;
+	color: #FFFAFA;
+}
+
+#entrevistas {
+	float: left;
+	position: absolute;
+	padding: 10px 10px 10px 10px;
+	background-image: url(imagens/fundo-caixa.png);
+	margin: 240px 0px 0px 480px ;
+	width: 220px;
+}
+
+.fundo-branco {
+	background: #FFFAFA;
+}
+
+#destaque {
+	float: right;
+	position: absolute;
+	padding: 10px 10px 10px 10px;
+	background-image: url(imagens/fundo-caixa.png);
+	margin: 240px 0px 0px 1100px ;
+	width: 300px;
+}
+
+#menu-lateral {
+	background: #FFFAFA;
+	font-size: 18px;
+	padding: 15px 0px 15px 0px;
+}
+
+#menu-lateral a {
+	color: #4F4F4F;
+	padding: 5px 80px 5px 0px;
+}
+
+#menu-lateral a:hover {
+	background: #B22222;
+	color: #FFFAFA;
+
+}
+
+#mundo {
+	float: left;
+	position: absolute;
+	padding: 10px 10px 10px 10px;
+	background-image: url(imagens/fundo-caixa.png);
+	margin: 640px 0px 15px 750px ;
+	width: 300px;
+}
+
+.mundo {
+	background: #37588B;
+	color: #FFFAFA;
+	padding: 0px 110px 0px 110px;
+	font-size: 27px;	
+}
+
+.imagem {
+	float: left;
+	margin: 10px;
+}
+
+.juncao {
+	background: #FFFAFA;
+}
+
+.azul {
+	color: 	#1E90FF;
+	padding: 0px 0px 3px 10px;
+	font-size: 12px;
+}
+
+#noticias {
+	float: left;
+	position: absolute;
+	padding: 10px 10px 10px 10px;
+	background-image: url(imagens/fundo-caixa.png);
+	margin: 640px 0px 15px 1100px ;
+	width: 300px;
+}
+
+.recentes {
+	background: #37588B;
+	color: #FFFAFA;
+	padding: 0px 45px 0px 45px;
+	font-size: 27px;
+}
+
+#news {
+	float: left;
+	position: absolute;
+	padding: 10px 10px 10px 10px;
+	background-image: url(imagens/fundo-caixa.png);
+	margin: 680px 0px 0px 480px ;
+	width: 220px;
+}
+
+.news {
+	background: #37588B;
+	color: #FFFAFA;
+	padding: 0px 80px 0px 79px;
+	font-size: 27px;
+}
